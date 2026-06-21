@@ -1,0 +1,20 @@
+{
+  "name": "chems-ia-backend",
+  "version": "1.0.0",
+  "description": "Backend do Chems IA — fala com Gemini e Supabase de forma segura",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "@google/generative-ai": "^0.21.0",
+    "@supabase/supabase-js": "^2.45.4"
+  }
+}
